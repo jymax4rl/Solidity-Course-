@@ -10,7 +10,7 @@ The `internal` keyword allows access **within the same contract** and **in deriv
 ---
 
 ## Functions & Variables
-- Default visibility for **state variables** if not specified.  
+- **Default** visibility for **state variables** if not specified.  
 - Accessible inside child contracts, unlike `private`.  
 
 ```solidity
@@ -28,8 +28,9 @@ contract Child is Parent {
     function getDouble() public view returns (uint) {
         return double(); // ✅ Allowed
     }
-}```
+}
+```
 
 
->!TIP
-###Use internal when you want inheritance access without making the function public.
+>[!TIP]
+### Use --internal-- when you want inheritance access without making the function public.
