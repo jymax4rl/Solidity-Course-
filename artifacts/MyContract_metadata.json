@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "notifySpending",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lessons/exo1-aasignement.sol": "MyContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lessons/exo1-aasignement.sol": {
+			"keccak256": "0x70f0624a04a6fd0cae4cb5ef1b07c02be4ca525b6f2fb761d1e60b12a529a0c5",
+			"urls": [
+				"bzz-raw://832f2e8b3c1c55e4516027541ee827fc4b1891ac67dee82842eade063804e966",
+				"dweb:/ipfs/QmQopUbPCLxGpYbqPNNxCrTh4sXCyDG8DXgD9hZ1dpp3md"
+			]
+		}
+	},
+	"version": 1
+}

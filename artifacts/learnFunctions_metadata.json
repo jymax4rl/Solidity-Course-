@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "airDrop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stakingWallet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lessons/exo1-aasignement.sol": "learnFunctions"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lessons/exo1-aasignement.sol": {
+			"keccak256": "0x5735ab548c7b76e28fd34362b34e52ebeb783cce2b608458c2d15f74d89e45c6",
+			"urls": [
+				"bzz-raw://34c14b591b4f41f784841bc0fcbd205fa05dcad9dbf691e8d82e3645c4b4e3e5",
+				"dweb:/ipfs/Qme4B4PH2aD2QxJpWPg2VGGJTjNNzgzJMJ3UHhmdLvQpb1"
+			]
+		}
+	},
+	"version": 1
+}

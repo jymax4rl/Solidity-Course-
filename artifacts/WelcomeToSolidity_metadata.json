@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "calculateResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lessons/first_lesson.sol": "WelcomeToSolidity"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lessons/first_lesson.sol": {
+			"keccak256": "0x3ba66892433f43bb26f8e83fa1e209f2a5ac85be3a970ecaeb19b62c8a54e880",
+			"urls": [
+				"bzz-raw://13361a6ea5ca032ddf6bb77fac89ff57f932af852c3f965f385b7d37527a2d99",
+				"dweb:/ipfs/QmRtLmPSzfwKzVLHeZjeEinVptPTfP4wETyzLG3rCmtoN2"
+			]
+		}
+	},
+	"version": 1
+}
