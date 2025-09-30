@@ -13,7 +13,7 @@ The `internal` keyword allows access **within the same contract** and **in deriv
 - Default visibility for **state variables** if not specified.  
 - Accessible inside child contracts, unlike `private`.  
 
-```solidity
+```bash
 pragma solidity ^0.8.21;
 
 contract Parent {
@@ -28,7 +28,7 @@ contract Child is Parent {
     function getDouble() public view returns (uint) {
         return double(); // ✅ Allowed
     }
-}
+}```
 
 
 >!TIP

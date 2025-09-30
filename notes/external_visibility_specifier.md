@@ -1,13 +1,9 @@
 
----
 
-### `external.md`
-```markdown
 # Solidity Visibility: `external`
 
 The `external` keyword makes a function callable **only from outside the contract**.  
 
----
 
 ## Functions Only
 - Cannot be used for **state variables**.  

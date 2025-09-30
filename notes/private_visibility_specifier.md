@@ -13,7 +13,7 @@ The `private` keyword restricts access to **within the same contract only**.
 - Cannot be accessed by **derived (child) contracts**.  
 - Cannot be accessed **externally**.
 
-```solidity
+```bash
 pragma solidity ^0.8.21;
 
 contract Example {
