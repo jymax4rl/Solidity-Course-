@@ -1,5 +1,7 @@
 # Solidity Visibility: `public`
 
+see :https://how.dev/answers/what-are-access-modifiers-in-solidity
+
 The `public` keyword allows **functions** and **state variables** to be accessed **both internally and externally**.
 
 ---

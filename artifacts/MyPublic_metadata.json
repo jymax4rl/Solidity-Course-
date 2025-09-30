@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountToSend",
+						"type": "uint256"
+					}
+				],
+				"name": "AmountToSend",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lessons/accessModifiers.sol": "MyPublic"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lessons/accessModifiers.sol": {
+			"keccak256": "0x0c20abdea3946babf0e26f5880f71b6e2a1ee4cc556e0a68be57ae9f920407af",
+			"urls": [
+				"bzz-raw://39257dd9fde6dd11823454d66f012d82564ec9976df57272bda87c5c68f33262",
+				"dweb:/ipfs/QmbcF3udrJbqxM8r12aXNAk5bTwUXhgUuWcFZdaG7ggByL"
+			]
+		}
+	},
+	"version": 1
+}

@@ -2,6 +2,8 @@
 
 # Solidity Visibility: `external`
 
+see :https://how.dev/answers/what-are-access-modifiers-in-solidity
+
 The `external` keyword makes a function callable **only from outside the contract**.  
 
 

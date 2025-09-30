@@ -1,0 +1,1 @@
+c:\Users\gaksp\OneDrive\Pictures\Screenshots\solidity_access_modifiers.png

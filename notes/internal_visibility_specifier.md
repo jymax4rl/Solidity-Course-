@@ -2,6 +2,9 @@
 
 # Solidity Visibility: `internal`
 
+
+see :https://how.dev/answers/what-are-access-modifiers-in-solidity
+
 The `internal` keyword allows access **within the same contract** and **in derived (child) contracts**.  
 
 ---

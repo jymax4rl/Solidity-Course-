@@ -4,6 +4,8 @@
 The `private` keyword restricts access to **within the same contract only**.  
 
 ---
+see :https://how.dev/answers/what-are-access-modifiers-in-solidity
+
 
 ## Functions & Variables
 - Cannot be accessed by **derived (child) contracts**.  
