@@ -7,7 +7,7 @@ The `internal` keyword allows access **within the same contract** and **in deriv
 ---
 
 ## Functions & Variables
-- Default visibility for **state variables** if not specified.  
+- **Default** visibility for **state variables** if not specified.  
 - Accessible inside child contracts, unlike `private`.  
 
 ```solidity
@@ -30,4 +30,4 @@ contract Child is Parent {
 
 
 >[!TIP]
-### Use **internal** when you want inheritance access without making the function public.
+### Use --internal-- when you want inheritance access without making the function public.
