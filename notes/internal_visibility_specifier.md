@@ -28,5 +28,5 @@ contract Child is Parent {
 }```
 
 
->!TIP
-###Use internal when you want inheritance access without making the function public.
+>[!TIP]
+### Use internal when you want inheritance access without making the function public.
