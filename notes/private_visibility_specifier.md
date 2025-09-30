@@ -2,7 +2,7 @@
 
 ### Functions/Variables: Accessible only within the same contract.
 
->[!Important] Not accessible from derived (child) contracts or externally.
+>[!IMPORTANT] Not accessible from derived (child) contracts or externally.
 
 ```solidity
 pragma solidity ^0.8.21;
