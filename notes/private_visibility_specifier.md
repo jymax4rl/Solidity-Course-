@@ -1,8 +1,17 @@
-# Private keyword Visibility
 
-### Functions/Variables: Accessible only within the same contract.
+---
 
->[!IMPORTANT] Not accessible from derived (child) contracts or externally.
+### `private.md`
+```markdown
+# Solidity Visibility: `private`
+
+The `private` keyword restricts access to **within the same contract only**.  
+
+---
+
+## Functions & Variables
+- Cannot be accessed by **derived (child) contracts**.  
+- Cannot be accessed **externally**.
 
 ```solidity
 pragma solidity ^0.8.21;
@@ -14,4 +23,7 @@ contract Example {
         return secret;
     }
 }
-```
+
+>!Important
+###private is the most restrictive visibility.
+ ###Even inherited contracts cannot access it.

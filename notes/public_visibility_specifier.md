@@ -1,19 +1,15 @@
-# Solidity Function and Variable Visibility
+# Solidity Visibility: `public`
 
-In Solidity, functions and state variables have **visibility specifiers** that determine where and how they can be accessed. The four types are:
-
-- `public`
-- `private`
-- `internal`
-- `external`
+The `public` keyword allows **functions** and **state variables** to be accessed **both internally and externally**.
 
 ---
 
-## 1. `public`
-- **Functions**: Can be called both **internally** (inside the contract and derived contracts) and **externally** (by users or other contracts).
-- **State Variables**: Solidity automatically creates a **getter function** for public state variables.
+## Functions
+- Can be called **inside the contract**, **in derived contracts**, and **externally** (users, other contracts).
 
-**Example**:
+## State Variables
+- Solidity automatically generates a **getter function**.
+
 ```solidity
 pragma solidity ^0.8.21;
 
