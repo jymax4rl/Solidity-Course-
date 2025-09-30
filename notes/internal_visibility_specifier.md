@@ -25,7 +25,8 @@ contract Child is Parent {
     function getDouble() public view returns (uint) {
         return double(); // ✅ Allowed
     }
-}```
+}
+```
 
 
 >[!TIP]
