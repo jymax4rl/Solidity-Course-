@@ -1,8 +1,4 @@
 
----
-
-### `private.md`
-```markdown
 # Solidity Visibility: `private`
 
 The `private` keyword restricts access to **within the same contract only**.  
@@ -13,7 +9,7 @@ The `private` keyword restricts access to **within the same contract only**.
 - Cannot be accessed by **derived (child) contracts**.  
 - Cannot be accessed **externally**.
 
-```bash
+```solidity
 pragma solidity ^0.8.21;
 
 contract Example {
@@ -23,6 +19,7 @@ contract Example {
         return secret;
     }
 }
+```
 
 >!Important
 ###private is the most restrictive visibility.

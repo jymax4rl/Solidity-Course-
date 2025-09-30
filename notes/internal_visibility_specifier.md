@@ -1,8 +1,5 @@
 
----
 
-### `internal.md`
-```markdown
 # Solidity Visibility: `internal`
 
 The `internal` keyword allows access **within the same contract** and **in derived (child) contracts**.  
@@ -13,7 +10,7 @@ The `internal` keyword allows access **within the same contract** and **in deriv
 - Default visibility for **state variables** if not specified.  
 - Accessible inside child contracts, unlike `private`.  
 
-```bash
+```solidity
 pragma solidity ^0.8.21;
 
 contract Parent {

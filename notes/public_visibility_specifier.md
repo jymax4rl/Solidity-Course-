@@ -10,7 +10,7 @@ The `public` keyword allows **functions** and **state variables** to be accessed
 ## State Variables
 - Solidity automatically generates a **getter function**.
 
-```bash
+```solidity
 pragma solidity ^0.8.21;
 
 contract Example {
